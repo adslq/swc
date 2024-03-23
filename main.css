@@ -4,6 +4,8 @@ html { font-family: 'Inter', sans-serif; }
 
 body {
     margin: 0;
+	background-color: black;
+    color: white;
 }
 
 .absolute-center {
@@ -29,30 +31,9 @@ socials a {
     opacity: 0.5;
     transition: 0.3s;
     cursor: pointer;
+	filter: invert();
 }
 
 socials a:hover {
     opacity: 1;
-}
-
-@media (prefers-color-scheme: white) {
-    body.dark {
-        background-color: black;
-        color: white;
-    }
-
-    socials a.dark {
-        filter: invert();
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    body.dark {
-        background-color: black;
-        color: white;
-    }
-
-    socials a.dark {
-        filter: invert();
-    }
 }
