@@ -41,6 +41,11 @@ socials a:hover {
         color: white;
     }
 
+	logo b.dark {
+        filter: invert();
+    }
+
+
     socials a.dark {
         filter: invert();
     }
