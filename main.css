@@ -37,3 +37,16 @@ socials a {
 socials a:hover {
     opacity: 1;
 }
+
+buttons a {
+    text-decoration: none;
+    padding-right: 5px;
+    opacity: 0.5;
+    transition: 0.3s;
+    cursor: pointer;
+	filter: invert();
+}
+
+buttons a:hover {
+    opacity: 1;
+}
